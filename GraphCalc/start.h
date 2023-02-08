@@ -7,6 +7,9 @@
 #include <Windows.h>
 #include <GL/GL.h>
 #include <GL/GLU.h>
+#else
+#include "gl.h"
+#include "glu.h"
 #endif
 
 
