@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Label="Globals">
     <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
@@ -12,5 +12,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)button.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)chchar.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ev.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)grafiki1.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)kalk.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)kalkulyator.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)start.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)stb_image.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)kalk.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)main.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)stb_image.cpp" />
   </ItemGroup>
 </Project>

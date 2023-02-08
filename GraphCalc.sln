@@ -5,11 +5,72 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GraphCalc", "GraphCalc\GraphCalc.vcxitems", "{0AA8EFDB-3D38-4568-9381-D754B46FBF9E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GraphCalc_win", "GraphCalc_win\GraphCalc_win.vcxproj", "{651A994F-2E81-4248-AFB9-A60C7FCBB267}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GraphCalc_linux", "GraphCalc_linux\GraphCalc_linux.vcxproj", "{266733F5-181E-4451-9E51-EB943F8CA8CC}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{651A994F-2E81-4248-AFB9-A60C7FCBB267}.Debug|ARM.ActiveCfg = Debug|x64
+		{651A994F-2E81-4248-AFB9-A60C7FCBB267}.Debug|ARM.Build.0 = Debug|x64
+		{651A994F-2E81-4248-AFB9-A60C7FCBB267}.Debug|ARM64.ActiveCfg = Debug|x64
+		{651A994F-2E81-4248-AFB9-A60C7FCBB267}.Debug|ARM64.Build.0 = Debug|x64
+		{651A994F-2E81-4248-AFB9-A60C7FCBB267}.Debug|x64.ActiveCfg = Debug|x64
+		{651A994F-2E81-4248-AFB9-A60C7FCBB267}.Debug|x64.Build.0 = Debug|x64
+		{651A994F-2E81-4248-AFB9-A60C7FCBB267}.Debug|x86.ActiveCfg = Debug|Win32
+		{651A994F-2E81-4248-AFB9-A60C7FCBB267}.Debug|x86.Build.0 = Debug|Win32
+		{651A994F-2E81-4248-AFB9-A60C7FCBB267}.Release|ARM.ActiveCfg = Release|x64
+		{651A994F-2E81-4248-AFB9-A60C7FCBB267}.Release|ARM.Build.0 = Release|x64
+		{651A994F-2E81-4248-AFB9-A60C7FCBB267}.Release|ARM64.ActiveCfg = Release|x64
+		{651A994F-2E81-4248-AFB9-A60C7FCBB267}.Release|ARM64.Build.0 = Release|x64
+		{651A994F-2E81-4248-AFB9-A60C7FCBB267}.Release|x64.ActiveCfg = Release|x64
+		{651A994F-2E81-4248-AFB9-A60C7FCBB267}.Release|x64.Build.0 = Release|x64
+		{651A994F-2E81-4248-AFB9-A60C7FCBB267}.Release|x86.ActiveCfg = Release|Win32
+		{651A994F-2E81-4248-AFB9-A60C7FCBB267}.Release|x86.Build.0 = Release|Win32
+		{266733F5-181E-4451-9E51-EB943F8CA8CC}.Debug|ARM.ActiveCfg = Debug|ARM
+		{266733F5-181E-4451-9E51-EB943F8CA8CC}.Debug|ARM.Build.0 = Debug|ARM
+		{266733F5-181E-4451-9E51-EB943F8CA8CC}.Debug|ARM.Deploy.0 = Debug|ARM
+		{266733F5-181E-4451-9E51-EB943F8CA8CC}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{266733F5-181E-4451-9E51-EB943F8CA8CC}.Debug|ARM64.Build.0 = Debug|ARM64
+		{266733F5-181E-4451-9E51-EB943F8CA8CC}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{266733F5-181E-4451-9E51-EB943F8CA8CC}.Debug|x64.ActiveCfg = Debug|x64
+		{266733F5-181E-4451-9E51-EB943F8CA8CC}.Debug|x64.Build.0 = Debug|x64
+		{266733F5-181E-4451-9E51-EB943F8CA8CC}.Debug|x64.Deploy.0 = Debug|x64
+		{266733F5-181E-4451-9E51-EB943F8CA8CC}.Debug|x86.ActiveCfg = Debug|x86
+		{266733F5-181E-4451-9E51-EB943F8CA8CC}.Debug|x86.Build.0 = Debug|x86
+		{266733F5-181E-4451-9E51-EB943F8CA8CC}.Debug|x86.Deploy.0 = Debug|x86
+		{266733F5-181E-4451-9E51-EB943F8CA8CC}.Release|ARM.ActiveCfg = Release|ARM
+		{266733F5-181E-4451-9E51-EB943F8CA8CC}.Release|ARM.Build.0 = Release|ARM
+		{266733F5-181E-4451-9E51-EB943F8CA8CC}.Release|ARM.Deploy.0 = Release|ARM
+		{266733F5-181E-4451-9E51-EB943F8CA8CC}.Release|ARM64.ActiveCfg = Release|ARM64
+		{266733F5-181E-4451-9E51-EB943F8CA8CC}.Release|ARM64.Build.0 = Release|ARM64
+		{266733F5-181E-4451-9E51-EB943F8CA8CC}.Release|ARM64.Deploy.0 = Release|ARM64
+		{266733F5-181E-4451-9E51-EB943F8CA8CC}.Release|x64.ActiveCfg = Release|x64
+		{266733F5-181E-4451-9E51-EB943F8CA8CC}.Release|x64.Build.0 = Release|x64
+		{266733F5-181E-4451-9E51-EB943F8CA8CC}.Release|x64.Deploy.0 = Release|x64
+		{266733F5-181E-4451-9E51-EB943F8CA8CC}.Release|x86.ActiveCfg = Release|x86
+		{266733F5-181E-4451-9E51-EB943F8CA8CC}.Release|x86.Build.0 = Release|x86
+		{266733F5-181E-4451-9E51-EB943F8CA8CC}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {01E6D446-D5F7-454E-8CEE-5595BE08618B}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		GraphCalc\GraphCalc.vcxitems*{0aa8efdb-3d38-4568-9381-d754b46fbf9e}*SharedItemsImports = 9
+		GraphCalc\GraphCalc.vcxitems*{266733f5-181e-4451-9e51-eb943f8ca8cc}*SharedItemsImports = 4
+		GraphCalc\GraphCalc.vcxitems*{651a994f-2e81-4248-afb9-a60c7fcbb267}*SharedItemsImports = 4
 	EndGlobalSection
 EndGlobal
